@@ -4,12 +4,12 @@
   }
 
 a{
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 a:hover{
-    color: black;
+    color: #000000;
     text-decoration: none;
 } 
 
@@ -47,15 +47,15 @@ a:hover{
     height: 13px;
     width: 13px;
     margin: 0 7px;   
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-radius: 50%;
     display: inline-block;
     transition: 0.6s ease;
 }
 
 .carousel-indicators li.active{
-    background-color: dimgray;
-    border-color: dimgray;
+    background-color: #4E4E4E ;
+    border-color: #4E4E4E ;
 }
 
 #navbar_logo{
@@ -73,16 +73,16 @@ a:hover{
 }
 
 .nav-item {
-    background-color:black;
+    background-color:#000000;
     padding-top: 12px;
     padding-bottom: 12px;
-    color:white;
+    color:#FFFFFF;
 }
 
 .nav-item:hover {
     background-color: #FFFFFF;
     cursor: pointer;
-    color:black;
+    color: #000000;
 }
 
 .navbar-toggler-icon{
@@ -91,10 +91,10 @@ a:hover{
 }
 
 #search_btton{
-    background-color:grey ;
+    background-color: #4E4E4E  ;
     height: 45px;
     padding: 6px 16px;
-    border: 1px solid grey;
+    border: 1px solid #4E4E4E ;
 }
 
 #navbar_supported_content {
@@ -108,7 +108,7 @@ a:hover{
 #search{
     width: 100%;
     height: 2em;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     border-radius: 10px;
 }
 
@@ -119,22 +119,22 @@ a:hover{
 }
 
 #choose_list_section{
-    margin: 27px;
+    margin: 27px 27px 16px 27px;
 }
 
 .block-content {
-    background-color: dimgray;
-    color: white;
+    background-color: #4E4E4E ;
+    color: #FFFFFF;
     padding: 16px 20px 0px 23px;
     margin-top: 22px;
 }
 
 #page_footer {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     text-align: center;
     line-height: 40px;
-    border-top: 1px solid black;
+    border-top: 1px solid #000000;
     margin: 0px 26px;
     font-size: 13px;
 }
@@ -152,7 +152,7 @@ a:hover{
 }
 
 .list-block{
-    border-top: 2px dashed white;
+    border-top: 2px dashed #FFFFFF;
     padding: 31px 3px 2px 3px;
     margin-top: 32px;
 }
@@ -179,13 +179,13 @@ a:hover{
     }
     
     .nav-item {
-        background-color: grey;
-        padding: 10px 30px 10px 30px;
+        background-color: #4E4E4E;
+        padding: 10px 25px 10px 25px;
     }
     
     #search {
         height: 2em;
-        border: 1px solid white;
+        border: 1px solid #FFFFFF;
         border-radius: 33px;
         float: right;
         width: 32%;
@@ -196,8 +196,8 @@ a:hover{
     } 
 
     .block-content {
-        background-color: dimgray;
-        color: white;
+        background-color: #4E4E4E;
+        color: #FFFFFF;
         padding: 16px 20px 0px 23px;
         margin: 22px 15px 0px 15px;
     }
@@ -209,7 +209,6 @@ a:hover{
     }
 
     #choose_list_section{
-        margin: 27px;
         display: flex;
     }
     
@@ -220,7 +219,7 @@ a:hover{
     }
     
     .list-block {
-        border-left: 2px dashed white;
+        border-left: 2px dashed #FFFFFF;
         padding: 4px 3px 2px 22px;
         margin: 43px 0px 18px 32px;
         border-top: none;
