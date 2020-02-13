@@ -22,12 +22,7 @@ a:hover{
     width: 100%;
     margin: 0;
     left: 0;
-    height: 160px;
-    
-}
-
-.carousel-item{
-    height: 10em;
+    height: auto;  
 }
 
 .carousel-indicators{
@@ -37,9 +32,14 @@ a:hover{
     bottom: -28px;
 }  
 
+.carousel-item{
+    height: 12em;
+}
+
 .carousel-item img{
     width: 100%;
-    display: block;
+    height:12em;
+
 }
 
 .carousel-indicators li{
@@ -59,7 +59,7 @@ a:hover{
 }
 
 #navbar_logo{
-    height: 50px;
+    height: 70px;
     padding-left: 10px;
 }
 
@@ -69,7 +69,6 @@ a:hover{
 
 .navbar-nav{
     text-align: center;
-
 }
 
 .nav-item {
@@ -85,9 +84,26 @@ a:hover{
     color: #000000;
 }
 
-.navbar-toggler-icon{
-    
+.nav-item a{
+    color: #FFFFFF;
+}
+
+.nav-item:hover a{
+    color: #000000;
+}
+
+.navbar-toggler-icon{  
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    width: 50px;
+    height: 40px;
+}
+
+#navbar_supported_content {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 90px;
+    left: 0px;
 }
 
 #search_btton{
@@ -95,14 +111,6 @@ a:hover{
     height: 45px;
     padding: 6px 16px;
     border: 1px solid #4E4E4E ;
-}
-
-#navbar_supported_content {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    top: 65px;
-    left: 0px;
 }
 
 #search{
@@ -113,13 +121,13 @@ a:hover{
 }
 
 #content_section{
-    margin: 27px;
+    margin: 16px;
     display: flex;
     flex-wrap: wrap;
 }
 
-#choose_list_section{
-    margin: 27px 27px 16px 27px;
+#choose_list_section {
+    margin: 24px 16px 16px 16px;
 }
 
 .block-content {
@@ -127,16 +135,6 @@ a:hover{
     color: #FFFFFF;
     padding: 16px 20px 0px 23px;
     margin-top: 22px;
-}
-
-#page_footer {
-    background-color: #FFFFFF;
-    color: #000000;
-    text-align: center;
-    line-height: 40px;
-    border-top: 1px solid #000000;
-    margin: 0px 26px;
-    font-size: 13px;
 }
 
 .body-content{
@@ -165,13 +163,28 @@ a:hover{
     margin-bottom: 16px;
 }
 
-@media (min-width: 576px){
+#page_footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    border-top: 1px solid #000000;
+    margin: 0px 16px;
+    font-size: 13px;
+}
+
+@media (min-width: 768px){
+    #navbar_logo {
+        height: 62px;
+        padding-left: 10px;
+    }
+
     #navbar_supported_content{
         position: absolute;
         z-index: 1;
         width: 100%;
         left: 0px;
-        top: 70px;  
+        top: 82px;  
     }
     
     .navbar_nav{
@@ -188,12 +201,16 @@ a:hover{
         border: 1px solid #FFFFFF;
         border-radius: 33px;
         float: right;
-        width: 32%;
-    }   
+        width: 30%;
+    }  
     
-    .carousel-inner {
-        height: 25em;
-    } 
+    .carousel-item {
+        height: 23em;
+    }
+
+    .carousel-item img{
+        height: 23em;
+    }
 
     .block-content {
         background-color: #4E4E4E;
@@ -210,6 +227,7 @@ a:hover{
 
     #choose_list_section{
         display: flex;
+        margin: 27px 27px 16px 27px;
     }
     
     .choose-block {
@@ -223,5 +241,9 @@ a:hover{
         padding: 4px 3px 2px 22px;
         margin: 43px 0px 18px 32px;
         border-top: none;
+    }
+    
+    #page_footer{
+        margin: 0px 27px;
     }
 }
