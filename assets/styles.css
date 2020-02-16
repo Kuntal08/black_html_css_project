@@ -54,12 +54,12 @@ a:hover{
 }
 
 .carousel-indicators li.active{
-    background-color: #4E4E4E ;
-    border-color: #4E4E4E ;
+    background-color: #383838 ;
+    border-color: #383838 ;
 }
 
 #navbar_logo{
-    height: 70px;
+    height: 55px;
     padding-left: 10px;
 }
 
@@ -102,15 +102,15 @@ a:hover{
     position: absolute;
     z-index: 1;
     width: 100%;
-    top: 90px;
+    top: 75px;
     left: 0px;
 }
 
 #search_btton{
-    background-color: #4E4E4E  ;
+    background-color: #383838  ;
     height: 45px;
     padding: 6px 16px;
-    border: 1px solid #4E4E4E ;
+    border: 1px solid #383838 ;
 }
 
 #search{
@@ -118,6 +118,10 @@ a:hover{
     height: 2em;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
+}
+
+::placeholder{
+    color:lightgray;
 }
 
 #content_section{
@@ -131,10 +135,14 @@ a:hover{
 }
 
 .block-content {
-    background-color: #4E4E4E ;
+    background-color: #383838 ;
     color: #FFFFFF;
     padding: 16px 20px 0px 23px;
     margin-top: 22px;
+}
+
+.block-content p{
+    margin-top: 16px;
 }
 
 .body-content{
@@ -146,7 +154,7 @@ a:hover{
 }
 
 .choose-block p{
-    padding-top: 14px;
+    padding-top: 8px;
 }
 
 .list-block{
@@ -192,7 +200,7 @@ a:hover{
     }
     
     .nav-item {
-        background-color: #4E4E4E;
+        background-color: #383838;
         padding: 10px 25px 10px 25px;
     }
     
@@ -213,7 +221,7 @@ a:hover{
     }
 
     .block-content {
-        background-color: #4E4E4E;
+        background-color: #383838;
         color: #FFFFFF;
         padding: 16px 20px 0px 23px;
         margin: 22px 15px 0px 15px;
