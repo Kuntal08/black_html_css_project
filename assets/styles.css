@@ -58,7 +58,7 @@ a:hover{
 
 .navbar {
     padding: 10px 0px;
-    margin: 0 -15px;
+    /*margin: 0 -15px;*/
 }
 
 .navbar-nav{
@@ -104,7 +104,7 @@ a:hover{
     height: 45px;
     padding: 6px 16px;
     border: 1px solid #383838 ;
-    margin: 0 -15px;
+    /*margin: 0 -15px;*/
 }
 
 #search{
@@ -112,6 +112,10 @@ a:hover{
     height: 2em;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
+}
+
+.search-section{
+    background-color: #383838;
 }
 
 ::placeholder{
@@ -167,6 +171,10 @@ a:hover{
     margin-bottom: 16px;
 }
 
+/*.container.section-container {
+    padding: 0;
+}*/
+
 #page_footer {
     background-color: #FFFFFF;
     color: #000000;
@@ -177,10 +185,13 @@ a:hover{
     font-size: 13px;
 }
 
-@media (min-width: 768px){
-    .navbar{
-        margin:0 0px;
+@media (min-width:576px){
+    img#navbar_logo {
+        margin: 0 -30px;
     }
+}
+
+@media (min-width: 768px){
 
     #navbar_logo {
         height: 62px;
@@ -191,7 +202,8 @@ a:hover{
         position: absolute;
         z-index: 1;
         width: 65%;
-        top: 82px;  
+        top: 82px; 
+        margin: 0px -35px; 
     }
     
     .navbar_nav{
@@ -203,10 +215,6 @@ a:hover{
         padding: 10px 25px 10px 25px;
     }
     
-    #search_btton{
-        margin:0 0px;
-
-    }
 
     #search {
         height: 2em;
@@ -227,16 +235,18 @@ a:hover{
         /*margin: 13px;*/
         display: flex;
         flex-wrap: nowrap;
+        margin: 0 -40px;
     }
 
     #choose_list_section{
         display: flex;
+        margin: 0 -40px;
        /* margin: 27px 27px 16px 27px;*/
     }
     
     .choose-block {
         /* position: inherit; */
-        padding: 0px;
+        padding-right: 10px;
         /*width: 130%;*/
     }
     
@@ -254,11 +264,39 @@ a:hover{
 }
 
 @media (min-width: 992px){
-    .navbar{
-        margin:0 0px;
+    #navbar_supported_content{
+        margin: 0 -35px;
     }
 
-    #search_btton{
-        margin:0 0px;
+    img#navbar_logo {
+        margin: 0 -35px;
     }
+
+    #content_section {
+        margin: 0 -30px;
+    }
+
+    #choose_list_section{
+        margin: 0 -30px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    #navbar_supported_content{
+        margin: 0 -45px;
+    }
+
+    img#navbar_logo {
+        margin: 0 -50px;
+    }
+
+    #content_section {
+        margin: 0 -60px;
+    }
+
+    #choose_list_section{
+        margin: 0 -60px;
+    }
+
 }
