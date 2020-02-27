@@ -58,6 +58,7 @@ a:hover{
 
 .navbar {
     padding: 10px 0px;
+    margin: 0 -15px;
 }
 
 .navbar-nav{
@@ -103,6 +104,7 @@ a:hover{
     height: 45px;
     padding: 6px 16px;
     border: 1px solid #383838 ;
+    margin: 0 -15px;
 }
 
 #search{
@@ -171,11 +173,15 @@ a:hover{
     text-align: center;
     line-height: 40px;
     border-top: 1px solid #000000;
-    margin: 0px 16px;
+    /*margin: 0px 16px;*/
     font-size: 13px;
 }
 
 @media (min-width: 768px){
+    .navbar{
+        margin:0 0px;
+    }
+
     #navbar_logo {
         height: 62px;
         padding-left: 20px;
@@ -197,6 +203,11 @@ a:hover{
         padding: 10px 25px 10px 25px;
     }
     
+    #search_btton{
+        margin:0 0px;
+
+    }
+
     #search {
         height: 2em;
         border: 1px solid #FFFFFF;
@@ -237,6 +248,17 @@ a:hover{
     }
     
     #page_footer{
-        margin: 0px 27px;
+        /*margin: 0px 27px;*/
+    }
+
+}
+
+@media (min-width: 992px){
+    .navbar{
+        margin:0 0px;
+    }
+
+    #search_btton{
+        margin:0 0px;
     }
 }
