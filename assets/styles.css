@@ -127,6 +127,7 @@ a:hover{
 }
 
 
+
 .block-content {
     background-color: #383838 ;
     color: #FFFFFF;
@@ -178,18 +179,13 @@ a:hover{
 @media (min-width: 576px){
     .content-container{
         padding: 0;
-    }
+        border-bottom: 1px solid #000000;
 
-    #search_btton{
-        margin: 0 -25px;
-    }
-
-    .navbar{
-        margin: 0 -25px;
     }
 
     #page_footer{
-        margin: 0 -17px;
+        margin: 0px 0px;
+        border-top: none;
     }
 }
 
@@ -249,34 +245,23 @@ a:hover{
         border-top: none;
         margin-bottom: 20px;
     }
-    
-    #search_btton{
-        margin: 0 -40px;
-    }
 
-    .navbar{
-        margin: 0 -30px;
+    #page_footer{
+        margin: 0px 0px;
     }
 }
 
 @media (min-width: 992px){
-    #search_btton{
-        margin: 0 -33px;
-    }
-
-    .navbar{
-        margin: 0 -30px;
+    #page_footer{
+        margin: 0px 0px;
     }
 }
 
 @media (min-width: 1200px){
-    #search_btton{
-        margin: 0 -72px;
+    .content-container{
+        border-bottom: none;
     }
 
-    .navbar{
-        margin: 0 -70px;
-    }
     #content_section{
         margin: 0 -60px;
     }
@@ -291,8 +276,8 @@ a:hover{
         justify-content: center;
         line-height: 40px;
         border-top: 1px solid #000000;
-        margin: 0px -60px;
         font-size: 13px;
+        margin: 0px 10px;
     }
  
 }
