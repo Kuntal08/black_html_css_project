@@ -126,8 +126,6 @@ a:hover{
     flex-wrap: wrap;
 }
 
-
-
 .block-content {
     background-color: #383838 ;
     color: #FFFFFF;
@@ -190,13 +188,15 @@ a:hover{
     #navbar_logo {
         height: 62px;
         padding-left: 20px;
+        margin: 0 -40px;
     }
 
     #navbar_supported_content{
         position: absolute;
         z-index: 1;
         width: 65%;
-        top: 82px;  
+        top: 82px; 
+        margin: 0 -40px; 
     }
     
     .navbar_nav{
@@ -214,6 +214,7 @@ a:hover{
         border-radius: 33px;
         float: right;
         width: 30%;
+        margin: 0 -20px;
     }  
 
     .block-content {
@@ -249,14 +250,34 @@ a:hover{
 }
 
 @media (min-width: 992px){
+    #navbar_logo{
+        margin: 0 -31px;
+    }
+
+    #navbar_supported_content{
+        margin: 0 -31px;
+    }
+
+    #search{
+        margin: 0 -20px;
+    }
+
     #page_footer{
         margin: 0px 0px;
     }
 }
 
 @media (min-width: 1200px){
-    .content-container{
-        border-bottom: none;
+    #navbar_logo{
+        margin: 0 -90px;
+    }
+
+    #navbar_supported_content{
+        margin: 0 -90px;
+    }
+
+    #search{
+        margin: 0 -60px;
     }
 
     #content_section{
