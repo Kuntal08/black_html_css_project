@@ -13,7 +13,7 @@ a:hover{
     text-decoration: none;
 } 
 
-.header-container{
+.header-container-fluid{
     padding: 0;
 }
 
@@ -179,13 +179,10 @@ a:hover{
 @media (min-width: 576px){
     .content-container{
         padding: 0;
-        border-bottom: 1px solid #000000;
-
     }
 
     #page_footer{
         margin: 0px 0px;
-        border-top: none;
     }
 }
 
