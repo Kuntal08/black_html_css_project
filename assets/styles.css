@@ -11,7 +11,20 @@ a{
 a:hover{
     color: #000000;
     text-decoration: none;
+}
+.search-container {
+    padding: 0;
+    max-width: 1910px;
+    margin-left: auto;
+    margin-right: auto;
 } 
+
+.navbar-container {
+    padding: 0;
+    max-width: 1910px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .header-container-fluid{
     padding: 0;
@@ -100,6 +113,7 @@ a:hover{
     z-index: 1;
     width: 100%;
     top: 75px;
+    left: 0;
 }
 
 #search_btton{
@@ -119,7 +133,6 @@ a:hover{
 ::placeholder{
     color:lightgray;
 }
-
 
 #content_section{
     display: flex;
@@ -176,11 +189,14 @@ a:hover{
 
 @media (min-width: 576px){
     .content-container{
-        padding: 0;
+        padding: 0 25px;
+        max-width: 1910px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #page_footer{
-        margin: 0px 0px;
+        margin: 0px 10px;
     }
 }
 
@@ -188,7 +204,6 @@ a:hover{
     #navbar_logo {
         height: 62px;
         padding-left: 20px;
-        margin: 0 -40px;
     }
 
     #navbar_supported_content{
@@ -196,7 +211,7 @@ a:hover{
         z-index: 1;
         width: 65%;
         top: 82px; 
-        margin: 0 -40px; 
+        left: unset;
     }
     
     .navbar_nav{
@@ -214,7 +229,6 @@ a:hover{
         border-radius: 33px;
         float: right;
         width: 30%;
-        margin: 0 -20px;
     }  
 
     .block-content {
@@ -243,59 +257,5 @@ a:hover{
         border-top: none;
         margin-bottom: 20px;
     }
-
-    #page_footer{
-        margin: 0px 0px;
-    }
 }
 
-@media (min-width: 992px){
-    #navbar_logo{
-        margin: 0 -31px;
-    }
-
-    #navbar_supported_content{
-        margin: 0 -31px;
-    }
-
-    #search{
-        margin: 0 -20px;
-    }
-
-    #page_footer{
-        margin: 0px 0px;
-    }
-}
-
-@media (min-width: 1200px){
-    #navbar_logo{
-        margin: 0 -90px;
-    }
-
-    #navbar_supported_content{
-        margin: 0 -90px;
-    }
-
-    #search{
-        margin: 0 -60px;
-    }
-
-    #content_section{
-        margin: 0 -60px;
-    }
-
-    #choose_list_section{
-        margin: 0 -60px;
-    }
-
-    #page_footer {
-        background-color: #FFFFFF;
-        color: #000000;
-        justify-content: center;
-        line-height: 40px;
-        border-top: 1px solid #000000;
-        font-size: 13px;
-        margin: 0px 10px;
-    }
- 
-}
