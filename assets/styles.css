@@ -112,8 +112,8 @@ a:hover{
 
 #search_btton{
     background-color: #383838  ;
-    height: 45px;
-    padding: 6px 16px;
+    height: 44px;
+    padding: 2px 16px;
     border: 1px solid #383838 ;
 }
 
@@ -137,8 +137,7 @@ a:hover{
     background-color: #383838 ;
     color: #FFFFFF;
     padding: 16px 20px 0px 23px;
-    background-clip:padding-box;
-    border: 15px solid transparent;
+    margin: 16px;
 }
 
 .block-content p{
@@ -160,7 +159,7 @@ a:hover{
 .list-block{
     border-top: 2px dashed #FFFFFF;
     padding: 31px 3px 2px 3px;
-    margin-top: 32px;
+    margin-top: 40px;
 }
 
 .list-block ol{
@@ -172,24 +171,13 @@ a:hover{
 }
 
 #page_footer {
-    background-color: #FFFFFF;
-    color: #000000;
-    justify-content: center;
+    text-align: center;
     line-height: 40px;
     border-top: 1px solid #000000;
-    margin: 0px 0px;
+    margin: 0 15px;
     font-size: 13px;
 }
 
-@media (min-width: 576px){
-    .content-container{
-        padding: 0;
-    }
-
-    #page_footer{
-        margin: 0px 10px;
-    }
-}
 
 @media (min-width: 768px){
     #navbar_logo {
@@ -199,9 +187,7 @@ a:hover{
     }
 
     #navbar_supported_content{
-        position: absolute;
-        z-index: 1;
-        width: 65%;
+        width: 50%;
         top: 82px; 
         left: unset;
         margin-left: -25px;
@@ -237,7 +223,7 @@ a:hover{
         flex-wrap: nowrap;
     }
 
-    #choose_list_section{
+    #choose_list_section .block-content{
         display: flex;
     }
     
@@ -251,9 +237,5 @@ a:hover{
         border-top: none;
         margin-bottom: 20px;
     }
-}
-
-@media (min-width: 992px){
-    
 }
 
