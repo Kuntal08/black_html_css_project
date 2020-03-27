@@ -113,7 +113,7 @@ a:hover{
 #search_btton{
     background-color: #383838  ;
     height: 44px;
-    padding: 2px 16px;
+    padding: 5px 16px;
     border: 1px solid #383838 ;
 }
 
@@ -187,10 +187,9 @@ a:hover{
     }
 
     #navbar_supported_content{
-        width: 50%;
-        top: 82px; 
-        left: unset;
-        margin-left: -25px;
+        position: relative;
+        top: 63px;
+        left: -14em;
     }
     
     .navbar_nav{
@@ -201,13 +200,14 @@ a:hover{
         background-color: #383838;
         padding: 10px 25px 10px 25px;
     }
-    
-    #search {
-        height: 2em;
-        border: 1px solid #FFFFFF;
-        border-radius: 33px;
-        float: right;
+
+    form {
         width: 30%;
+        float: right;
+    }
+
+    #search {
+        border-radius: 33px;
         margin-right: -10px;
     }  
 
@@ -236,6 +236,12 @@ a:hover{
         padding: 4px 3px 2px 22px;
         border-top: none;
         margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px){
+    form{
+        width: 22%;
     }
 }
 
