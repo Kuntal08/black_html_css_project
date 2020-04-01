@@ -17,7 +17,7 @@ a:hover{
 } 
 
 .navbar-container {
-    padding: 0;
+    padding: 15px;
 }
 
 .header-container-fluid{
@@ -64,11 +64,11 @@ a:hover{
 
 #navbar_logo{
     height: 55px;
-    padding-left: 20px;
+
 }
 
 .navbar {
-    padding: 10px 0px;
+    padding: 0px;
 }
 
 .navbar-nav{
@@ -100,19 +100,22 @@ a:hover{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     width: 50px;
     height: 40px;
+    float: right;
+    margin-top: 10px;
 }
 
 #navbar_supported_content {
     position: absolute;
     z-index: 1;
     width: 100%;
-    top: 75px;
+    top: 0px;
     left: 0;
 }
 
 #search_btton{
+    width: 100%;
     background-color: #383838  ;
-    height: 44px;
+    height: 45px;
     padding: 5px 16px;
     border: 1px solid #383838 ;
 }
@@ -173,42 +176,42 @@ a:hover{
 #page_footer {
     text-align: center;
     line-height: 40px;
-    border-top: 1px solid #000000;
-    margin: 0 15px;
     font-size: 13px;
+    border-top: 1px solid #000000;
 }
-
 
 @media (min-width: 768px){
     #navbar_logo {
         height: 62px;
-        padding-left: unset;
-        margin-left: -10px;
+    }
+
+    .navbar-toggler-icon{
+        display: none;
     }
 
     #navbar_supported_content{
-        position: relative;
-        top: 63px;
-        left: -14em;
+        position: unset;
     }
-    
-    .navbar_nav{
-        width:50%;
-    }
-    
+        
     .nav-item {
         background-color: #383838;
-        padding: 10px 25px 10px 25px;
+        padding: 10px 25px 9px 25px;
     }
 
     form {
-        width: 30%;
-        float: right;
+        width: 40%;
+    }
+
+    #search_btton{
+        padding: 0px;
+    }
+    .search-container{
+        display: flex;
     }
 
     #search {
         border-radius: 33px;
-        margin-right: -10px;
+        margin-top: 5px;
     }  
 
     .block-content {
@@ -218,7 +221,6 @@ a:hover{
     }
 
     #content_section{
-
         display: flex;
         flex-wrap: nowrap;
     }
@@ -236,12 +238,6 @@ a:hover{
         padding: 4px 3px 2px 22px;
         border-top: none;
         margin-bottom: 20px;
-    }
-}
-
-@media (min-width: 992px){
-    form{
-        width: 22%;
     }
 }
 
